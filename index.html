@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizz Buzz</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/main.css">
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="welcome">
+            <h1>Welcome to the Fizz Buzz Game</h1>
+        </div>
+        <div id="themeSection">
+            <label for="theme" style="font-style: italic; margin-right: 10px;">Change Page Theme:</label>
+            <select name="theme" id="theme">
+                <option value="">--Select Color--</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="purple">Purple</option>
+            </select>
+        </div>
+    </header><hr>
+    <main>
+        <div id="container">
+            <div id="promptContainer">
+                <label for="prompt">Enter Number:</label>
+                <input type="text" name="prompt" id="prompt">
+            </div>
+        
+            <div id="actionBtns">
+                <button type="button" id="generate">Generate</button>
+                <button type="reset" id="reset">Reset</button>
+            </div>
+        </div>
+        <div id="resultContainer">
+            <ul id="list"></ul>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p><span>&copy;</span> Copyright @Kevin-Code-Master 2024</p>
+        
+        <div id="contact">
+            <p>Please reach out through: </p>
+            <a href="https://github.com/Kevin-Code-Master/FizzBuzz" target="_blank" rel="noopener noreferrer"> <i class="fa fa-github" style="font-size:36px"></i></a>
+            <i class="fa fa-facebook-official" style="font-size:36px;color: #1877F2"></i>
+            <i class="fa fa-twitter-square" style="font-size:36px;color:#008AD8"></i>
+        </div>
+    </footer>
+</body>
+</html>
